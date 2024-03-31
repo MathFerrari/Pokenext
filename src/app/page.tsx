@@ -4,7 +4,7 @@ import Card from '../components/Card'
 
 import { useEffect, useState } from 'react';
 
-export async function getData() {
+async function getData() {
     const maxPokemons = 50;
     const api = `https://pokeapi.co/api/v2/pokemon/`;
 
